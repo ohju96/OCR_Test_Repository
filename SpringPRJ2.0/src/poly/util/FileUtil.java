@@ -1,0 +1,20 @@
+package poly.util;
+
+import java.io.File;
+
+public class FileUtil {
+	
+	public static String mkdirForDate(String uploadDir) {
+		
+		String path = uploadDir + DateUtil.getDateTime("/yyyy/MM/dd");
+		
+		File Folder = new File(path);
+		
+		if (!Folder.exists()) {
+			Folder.mkdir(); //폴더 생성합니다.
+		}
+		
+		return path;
+	}
+
+}
