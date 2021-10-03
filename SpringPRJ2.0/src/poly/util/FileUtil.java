@@ -11,7 +11,7 @@ public class FileUtil {
 		File Folder = new File(path);
 		
 		if (!Folder.exists()) {
-			Folder.mkdir(); //폴더 생성합니다.
+			Folder.mkdirs(); //폴더 생성합니다.
 		}
 		
 		return path;

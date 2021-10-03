@@ -5,7 +5,6 @@ import java.io.File;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
-import com.lowagie.text.Image;
 
 import net.sourceforge.tess4j.ITesseract;
 import net.sourceforge.tess4j.Tesseract;
